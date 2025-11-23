@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the AbsVis EMNLP 2025 paper."
+title: "AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images"
+authors:
+  - family-names: "Tater"
+    given-names: "Tarun"
+  - family-names: "Frassinelli"
+    given-names: "Diego"
+  - family-names: "Schulte im Walde"
+    given-names: "Sabine"
+doi: "10.18653/v1/2025.emnlp-main.417"
+url: "https://aclanthology.org/2025.emnlp-main.417/"
+preferred-citation:
+  type: inproceedings
+  title: "AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images"
+  authors:
+    - family-names: "Tater"
+      given-names: "Tarun"
+    - family-names: "Frassinelli"
+      given-names: "Diego"
+    - family-names: "Schulte im Walde"
+      given-names: "Sabine"
+  collection-title: "EMNLP 2025"
+  year: "2025"
+  month: "11"
+  doi: "10.18653/v1/2025.emnlp-main.417"
+  url: "https://aclanthology.org/2025.emnlp-main.417/"
+  bibtex: |
+    @inproceedings{tater-etal-2025-absvis,
+        title = "{A}bs{V}is {--} Benchmarking How Humans and Vision-Language Models ``See'' Abstract Concepts in Images",
+        author = "Tater, Tarun  and
+          Frassinelli, Diego  and
+          Schulte im Walde, Sabine",
+        booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        month = nov,
+        year = "2025",
+        address = "Suzhou, China",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2025.emnlp-main.417/",
+        doi = "10.18653/v1/2025.emnlp-main.417",
+        pages = "8271--8292",
+        ISBN = "979-8-89176-332-6",
+    }
