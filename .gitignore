@@ -1,0 +1,12 @@
+# macOS metadata
+.DS_Store
+
+# Python cache (optional but recommended)
+__pycache__/
+*.pyc
+
+# VSCode settings (optional)
+.vscode/
+
+# Jupyter notebook checkpoints (optional)
+.ipynb_checkpoints/
