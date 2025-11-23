@@ -70,9 +70,12 @@ Distribution of human explanation counts per image:
 
 ---
 
-## Paper (camera-ready)
-Camera-ready PDF included in this repository:
-`paper/Absvis_EMNLP_camera_ready_updated.pdf` (local path: `/mnt/data/Absvis_EMNLP_camera_ready_updated.pdf`)
+## Paper
+
+The EMNLP 2025 paper describing the AbsVis dataset is available at:
+
+🔗 **ACL Anthology:**  
+https://aclanthology.org/2025.emnlp-main.417/
 
 ---
 
