@@ -4,6 +4,14 @@ AbsVis is the dataset accompanying the EMNLP 2025 paper
 **"AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images."**  
 It examines how abstract concepts (e.g., *catastrophe, geography, strategy, mercy*) are visually represented in real images and how humans and vision–language models attribute concepts to those images.
 
+
+🔗 **ACL Anthology:**  
+https://aclanthology.org/2025.emnlp-main.417/
+
+---
+
+## Repository Structure
+
 This repository currently includes:
 
 ### `metadata/nouns_list.csv`
@@ -70,14 +78,7 @@ Distribution of human explanation counts per image:
 
 ---
 
-## Paper
 
-The EMNLP 2025 paper describing the AbsVis dataset is available at:
-
-🔗 **ACL Anthology:**  
-https://aclanthology.org/2025.emnlp-main.417/
-
----
 
 ## 📚 Citation
 
