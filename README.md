@@ -1,3 +1,52 @@
+# AbsVis — Benchmarking How Humans and Vision-Language Models “See” Abstract Concepts in Images
+
+AbsVis is the dataset accompanying the EMNLP 2025 paper  
+**"AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images."**  
+It examines how abstract concepts (e.g., *catastrophe, geography, strategy, mercy*) are visually represented in real images and how humans and vision–language models attribute concepts to those images.
+
+This repository currently includes:
+
+### `metadata/nouns_list.csv`
+This file contains the set of nouns used in the AbsVis dataset.  
+Each noun is matched with its concreteness rating and assigned one of three categories based on the rating:
+
+- **abstract**  
+- **mid-range**  
+- **concrete**
+
+---
+
+### `metadata/image_noun_mapping.csv`
+This file lists every **image–noun pair** used in the AbsVis dataset.  
+Each row contains a single image name and the noun associated with that image.
+
+**Columns:**
+- `image_name`  
+- `noun`
+
+
+
+---
+
+### `metadata/noun_image_mapping.csv`
+This file lists every **noun–image pair**, in the reverse direction of the previous file.  
+Each row contains a noun and one of its associated image names.
+
+**Columns:**
+- `noun`  
+- `image_name`
+
+---
+
+### `metadata/images_list.csv`
+This file contains the complete set of **unique image names** used in the AbsVis dataset.  
+Each row contains a single image ID.
+
+**Columns:**
+- `image_name`
+
+---
+
 ## 📚 Citation
 
 If you use **AbsVis**, please cite:
