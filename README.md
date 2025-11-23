@@ -1,4 +1,4 @@
-# AbsVis — Benchmarking How Humans and Vision-Language Models “See” Abstract Concepts in Images
+# AbsVis — Benchmarking How Humans and Vision-Language Models “See” Abstract Concepts in Images - EMNLP 2025 Long Paper (Main)
 
 AbsVis is the dataset accompanying the EMNLP 2025 paper  
 **"AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images."**  
@@ -44,6 +44,35 @@ Each row contains a single image ID.
 
 **Columns:**
 - `image_name`
+
+---
+
+### `annotations/` (human & model explanations)
+
+This repository also includes the `annotations/` folder with raw explanations collected from humans and two vision–language models (Qwen, LLaVA). 
+
+Provided annotation CSVs:
+- `annotations/annotations_human_raw.csv` — human explanations (one row per human explanation)
+- `annotations/annotations_qwen_raw.csv` — Qwen explanations (one row per model output)
+- `annotations/annotations_llava_raw.csv` — LLaVA explanations (one row per model output)
+- `annotations/annotations_all_raw.csv` — combined, with a `source` column
+
+**Note on human explanation counts (quality control):**  
+During annotation quality control we intentionally retained only substantive human explanations. One word responses were excluded from the final CSV in order to keep the dataset focused on meaningful concept–explanation pairs. As a result, a small number of images have fewer than 15 human explanations: 
+
+Distribution of human explanation counts per image:
+```
+10: 1
+13: 7
+14: 28
+15: 639
+```
+
+---
+
+## Paper (camera-ready)
+Camera-ready PDF included in this repository:
+`paper/Absvis_EMNLP_camera_ready_updated.pdf` (local path: `/mnt/data/Absvis_EMNLP_camera_ready_updated.pdf`)
 
 ---
 
