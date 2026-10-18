@@ -1,5 +1,13 @@
 # AbsVis — Benchmarking How Humans and Vision-Language Models “See” Abstract Concepts in Images - EMNLP 2025 Long Paper (Main)
 
+[![Paper](https://img.shields.io/badge/EMNLP%202025-Paper-red)](https://aclanthology.org/2025.emnlp-main.417/)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/Tarun/AbsVis)
+[![License](https://img.shields.io/badge/Annotations-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+
+<p align="center">
+  <img src="assets/teaser.jpg" alt="AbsVis overview: three images (anticipation, finale, elephant) with the concepts humans, Qwen2-VL and LLaVA attributed to each, shared concepts highlighted, and an example human explanation" width="100%">
+</p>
+
 AbsVis is the dataset accompanying the EMNLP 2025 paper  
 **"AbsVis — Benchmarking How Humans and Vision-Language Models 'See' Abstract Concepts in Images."**  
 It examines how abstract concepts (e.g., *catastrophe, geography, strategy, mercy*) are visually represented in real images and how humans and vision–language models attribute concepts to those images.
