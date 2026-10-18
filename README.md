@@ -8,6 +8,18 @@ It examines how abstract concepts (e.g., *catastrophe, geography, strategy, merc
 🔗 **ACL Anthology:**  
 https://aclanthology.org/2025.emnlp-main.417/
 
+🤗 **Hugging Face (with images):**  
+https://huggingface.co/datasets/Tarun/AbsVis
+
+The Hugging Face version includes all 675 original images, each with its Creative Commons license and photographer attribution:
+
+```python
+from datasets import load_dataset
+
+images = load_dataset("Tarun/AbsVis", "images", split="train")            # 675 images + noun + license/attribution
+annotations = load_dataset("Tarun/AbsVis", "annotations", split="train")  # human, Qwen and LLaVA concept–explanation pairs
+```
+
 ---
 
 ## Repository Structure
@@ -97,6 +109,7 @@ If you use **AbsVis**, please cite:
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.emnlp-main.417/",
     doi = "10.18653/v1/2025.emnlp-main.417",
-    pages = "8271--8292",
+    pages = "8260--8281",
     ISBN = "979-8-89176-332-6",
 }
+```
