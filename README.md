@@ -22,6 +22,56 @@ annotations = load_dataset("Tarun/AbsVis", "annotations", split="train")  # huma
 
 ---
 
+## At a Glance
+
+- **675 images** from YFCC100M, 3 per noun, for **225 nouns** spanning the concreteness scale (75 abstract, 75 mid-range, 75 concrete)
+- **~14K concept–explanation pairs**: up to 15 per image from humans (220 Prolific participants), plus 3 per image each from **Qwen2-VL-7B-Instruct** and **LLaVA-NeXT** (`llava-v1.6-mistral-7b-hf`)
+- Every concept comes with a free-text **explanation** of *why* the image evokes it
+
+**Main findings:** humans attribute more varied concepts than VLMs. Concepts attributed by *both* humans and VLMs are the most preferred, and explanations strengthen the perceived attributions.
+
+## Examples
+
+<table>
+<tr>
+<th width="33%"><i>forgiveness</i> (abstract)</th>
+<th width="33%"><i>catastrophe</i> (mid-range)</th>
+<th width="33%"><i>penguin</i> (concrete)</th>
+</tr>
+<tr>
+<td><img src="assets/examples/forgiveness.jpg" alt="Woman looking out a window with a quote about forgiveness"></td>
+<td><img src="assets/examples/catastrophe.jpg" alt="Car destroyed by a tornado among broken trees"></td>
+<td><img src="assets/examples/penguin.jpg" alt="Penguin swimming alone in calm water"></td>
+</tr>
+<tr>
+<td>
+<b>Humans</b> (15): embrace, emotional burden, forgiveness, freedom, open-minded, peaceful, reflection, sadness, tension, wisdom, …<br>
+<i>freedom</i>: "the message implies that forgiveness offers emotional freedom"<br><br>
+<b>Qwen</b>: forgiveness, mental space, isabelle holland<br>
+<b>LLaVA</b>: inspiration, motivation, reflection
+</td>
+<td>
+<b>Humans</b> (15): accident, anxiety, curiosity, damage, fear, pain, recovery, ruin, sadness, warning, …<br>
+<i>anxiety</i>: "seeing crashes like this make me apprehensive to get into a car and drive myself"<br><br>
+<b>Qwen</b>: accident, damage, nature<br>
+<b>LLaVA</b>: abandonment, desolation, destruction
+</td>
+<td>
+<b>Humans</b> (15): beauty of nature, calm, cold, learning, nature, peace, song, summer, waterproof, wildlife, …<br>
+<i>peace</i>: "nature is peace for the soul"<br><br>
+<b>Qwen</b>: reflection, solitude, tranquility<br>
+<b>LLaVA</b>: nature, serenity, solitude
+</td>
+</tr>
+</table>
+
+<sub>Images (unmodified, from YFCC100M/Flickr):
+<a href="http://www.flickr.com/photos/85608594@N00/10321368135/">"As long as you don't forgive…"</a> by symphony of love, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a> ·
+<a href="http://www.flickr.com/photos/40567541@N08/8815632720/">"Car destroyed by tornado in Granbury, TX"</a> by State Farm, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a> ·
+<a href="http://www.flickr.com/photos/91351004@N00/424856940/">"Swimming Penguin"</a> by Nrbelex, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a></sub>
+
+---
+
 ## Repository Structure
 
 This repository currently includes:
